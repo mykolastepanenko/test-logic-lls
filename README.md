@@ -9,6 +9,4 @@ npm run serve
 
 ### Или перейти по ссылке на развернутое приложение
 
-```
-npm run serve
-```
+(https://test-logic-llc.herokuapp.com/ "запущенное приложение")
