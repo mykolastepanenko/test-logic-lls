@@ -1,24 +1,14 @@
-# test-logic-lcc
+# Тестовое задание для Logic LLC
 
-## Project setup
+## Установка и запуск проекта
+
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Или перейти по ссылке на развернутое приложение
 
-### Lints and fixes files
 ```
-npm run lint
+npm run serve
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
