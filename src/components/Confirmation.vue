@@ -18,9 +18,11 @@ export default {
     },
   },
   methods: {
+    // функция подтверждения действия (удаления)
     yes(id) {
       this.$emit("removeContact", id);
     },
+    // функция отмены действия
     no() {
       this.$emit("no");
     },

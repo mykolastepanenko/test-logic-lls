@@ -1,4 +1,5 @@
 <template>
+  <!-- компонент регистрации нового контакта -->
   <div class="containerReg">
     <form class="form" @submit.prevent="onSubmit">
       <h1>Создание нового контакта</h1>

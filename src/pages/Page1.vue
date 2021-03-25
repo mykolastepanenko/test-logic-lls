@@ -1,10 +1,12 @@
 <template>
   <div>
+    <!-- скрытый компонент добавления новых контактов -->
     <Registration
       v-if="seenReg"
       @seenReg="seenRegMethod"
       @addContact="addContact"
     />
+    <!-- скрытый компонент для подтверждения действия (удаления) -->
     <Confirmation
       v-if="seen"
       @no="no"
@@ -56,14 +58,17 @@ export default {
       this.$emit("removeContact", id);
       this.seen = false;
     },
+    //функция подтвеждения удаления
     yes(id) {
       this.seen = true;
       this.id = id;
     },
+    //функция отмены удаления
     no() {
       this.seen = false;
       this.id = null;
     },
+    //функция открытия/скрытия компонента добавления нового контакта
     seenRegMethod() {
       this.seenReg = !this.seenReg;
     },
