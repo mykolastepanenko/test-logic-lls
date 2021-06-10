@@ -28,8 +28,8 @@ export default {
         },
         {
           row: [
-            { title: "Имя", value: "Анна" },
-            { title: "Фамилия", value: "Альтман" },
+            { title: "Имя", value: "Иван" },
+            { title: "Фамилия", value: "Иванович" },
             { title: "Телефон", value: "+380000000000" },
           ],
         },
